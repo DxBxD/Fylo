@@ -1,0 +1,25 @@
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0;
+    margin-left: 0;
+    padding: 20px;
+    color: $light-color1;
+    font-family: "Raleway-Bold";
+
+    img {
+        &.app-logo {
+            width: rem(74px);
+            margin-top: 6px;
+        }
+    }
+
+    nav ul {
+        font-family: "Raleway-Regular";
+        font-size: em(12px);
+        display: flex;
+        justify-content: space-between;
+        gap: em(40px);
+    }
+}

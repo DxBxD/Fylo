@@ -1,0 +1,159 @@
+.feature-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+
+    h3 {
+        font-family: Raleway - Bold;
+        color: $light-color1;
+        margin-top: 38px;
+    }
+
+    p {
+        font-family: OpenSans - Regular;
+        font-size: rem(14px);
+        color: $light-color1;
+        line-height: 21px;
+        font-weight: 400;
+        margin-top: 8px;
+    }
+}
+
+.home-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    min-height: 400px;
+
+    h2 {
+        font-family: Raleway - Bold;
+        color: $light-color1;
+        margin-top: 33px;
+        width: 60%;
+    }
+
+    p {
+        font-family: OpenSans - Regular;
+        font-size: rem(14px);
+        color: $light-color1;
+        line-height: 21px;
+        font-weight: 400;
+        margin-top: 19px;
+        width: 60%;
+    }
+
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 33px;
+        border-radius: 24px;
+        width: em(240px);
+        height: em(48px);
+        box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.16);
+        background-image: linear-gradient(152deg, #63e1d9 0%, #34a0cd 100%);
+        font-family: Raleway - Bold;
+        font-size: em(14px);
+        color: $light-color1;
+    }
+
+    &:last-of-type {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        h3 {
+            font-family: Raleway - Bold;
+            color: $light-color1;
+        }
+        font-family: OpenSans - Regular;
+        width: 336px;
+        height: 353px;
+        box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.25);
+        border-radius: 9px;
+        background-color: lighten($primary-color, 10%);
+
+        input {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 33px;
+            border-radius: 24px;
+            width: em(240px);
+            height: em(48px);
+            box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.16);
+            border: none;
+            font-family: Raleway - Bold;
+            padding: 10px;
+            color: $light-color1;
+        }
+
+        div {
+            margin-bottom: 0px;
+        }
+    }
+}
+
+.home-card.productive-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+
+    h2 {
+        font-family: Raleway - Bold;
+        color: $light-color1;
+        margin-top: 47px;
+        width: 60%;
+        text-align: left;
+    }
+
+    p {
+        font-family: OpenSans - Regular;
+        font-size: rem(14px);
+        color: $light-color1;
+        line-height: 21px;
+        font-weight: 400;
+        margin-top: 17px;
+        text-align: left;
+        width: 60%;
+    }
+
+    p:last-of-type {
+        margin-top: 17px;
+        color: #62e0d9;
+        font-family: OpenSans - Regular;
+        font-size: em(12px);
+        span {
+            img {
+                margin-left: 0.5em;
+                height: 12px;
+                width: 12px;
+            }
+
+            text-decoration: underline;
+        }
+    }
+    margin-bottom: 100px;
+}
+
+.testimony-card {
+    font-family: OpenSans - Regular;
+    font-size: em(17px);
+    line-height: 18px;
+    text-align: left;
+    padding: 35px;
+    width: 40%;
+    min-height: 13em;
+    box-shadow: 0 0 8px 4px rgba(56, 56, 56, 0.05);
+    border-radius: 4px;
+    background-color: lighten($primary-color, 10%);
+    color: $light-color1;
+    margin-top: -100px;
+}

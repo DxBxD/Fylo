@@ -1,0 +1,46 @@
+.app-footer {
+    margin-left: 10%;
+    margin-top: 140px;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+    gap: 40px;
+    font-family: OpenSans - Regular;
+    color: $light-color1;
+
+    nav {
+        margin-top: 70px;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        ul:first-of-type {
+            flex-direction: column;
+            text-align: left;
+            li {
+                display: flex;
+                margin-top: 20px;
+                gap: 20px;
+            }
+        }
+        ul {
+            margin-top: 20px;
+            flex-direction: column;
+
+            list-style: none;
+        }
+    }
+    > ul {
+        flex-direction: row;
+        margin-right: 10%;
+        gap: 20px;
+        list-style: none;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 2%;
+        display: flex;
+        img {
+            width: 33px;
+        }
+    }
+}

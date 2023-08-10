@@ -1,0 +1,18 @@
+.home {
+    margin-top: 70px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+
+    .home-card img {
+        width: 34vw;
+    }
+
+    .feature-card img {
+        width: em(65px);
+        text-align: center;
+        justify-content: center;
+    }
+}
